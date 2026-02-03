@@ -3,7 +3,7 @@
  * Plugin Name: Smart Persian URL Breadcrumb
  * Description: نمایش مسیر دقیق بر اساس URL با اولویت خودکار و اصلاح جهت آیکون.
  * Plugin URI: https://pmaimperio.com
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: saeed salimi shad
  */
 
