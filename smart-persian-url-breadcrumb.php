@@ -204,8 +204,8 @@ function csn_show_smart_breadcrumb() {
 
     $is_rtl = is_rtl();
 
-    // جهت آیکون برای RTL: ❯ برای مسیرهای فارسی درست است
-    $sep_icon = $is_rtl ? '❯' : '❮';
+    // جهت آیکون: RTL به چپ، LTR به راست
+    $sep_icon = $is_rtl ? '❮' : '❯';
     $sep      = '<span class="sep">' . $sep_icon . '</span>';
 
     echo '<div id="custom-breadcrumb-wrapper" class="' . esc_attr( $is_rtl ? 'is-rtl' : 'is-ltr' ) . '">';
